@@ -7,7 +7,7 @@
 </head>
 
 
-<style>
+<!-- <style>
 
 #box{
     background-color: rgb(241, 250, 247);
@@ -62,4 +62,119 @@ button{
 
 
 </body>
-</html>
+</html> -->
+
+
+
+<style>
+
+
+
+
+body{
+   background-color: rgb(223, 238, 252);
+}
+
+  #parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  #child1{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+  }
+
+  #child2{
+    border: 1px solid rgb(195, 195, 195);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: white;
+    border-radius: 5px;
+
+
+}
+
+
+input{
+    width: 100%;
+    height: 45px;
+    outline: none;
+    border: 1px solid rgb(208, 208, 208);
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    width: 103%;
+    height: 48px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+</style>
+
+
+
+
+<body>
+    
+  <div id="parent">
+
+
+    <div id="child1">
+        
+        <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg"   width="230">
+        <h1>Facebook helps you connect and share with the people in your life.</h1>
+
+    </div>
+
+
+
+
+        <div id="child2">
+           
+            <input type="email" placeholder="Email or Phone number">
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <button style="background-color: blue; font-weight: bold; font-size: 18px; color: white;">Login</button>
+            <br>
+            <a href="#">Forgotten Password</a>
+            
+            <hr>
+         
+            <button style="background-color: green; font-weight: bold; font-size: 18px; color: white;">Create Account</button>
+
+
+        </div>
+    
+  </div>
+
+
+</body>
+
+
+
+
+
+
+
